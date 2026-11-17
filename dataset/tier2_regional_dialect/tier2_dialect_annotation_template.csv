@@ -1,0 +1,6 @@
+﻿id,region,dialect,district,source_type,text,label_annotator_1,label_annotator_2,final_label,notes
+khandesh_0001,khandesh,ahirani,dhule,vaani_or_youtube,<paste Ahirani Devanagari sentence>,,,,positive | negative | neutral
+vidarbha_0001,vidarbha,varhadi,nagpur,vaani_or_youtube,<paste Varhadi Devanagari sentence>,,,,positive | negative | neutral
+konkan_0001,konkan,malvani,sindhudurg,vaani_or_youtube,<paste Malvani Devanagari sentence>,,,,positive | negative | neutral
+marathwada_0001,marathwada,marathwada_marathi,aurangabad,vaani_or_youtube,<paste Marathwada sentence>,,,,positive | negative | neutral
+western_mh_0001,western_mh,deshi_satari,satara,vaani_or_youtube,<paste Western MH sentence>,,,,positive | negative | neutral

@@ -1,0 +1,87 @@
+{
+  "mahasent_conflicts_dropped": 48,
+  "mahasent_splits": {
+    "train": {
+      "count": 47647,
+      "labels": {
+        "negative": 15943,
+        "neutral": 15943,
+        "positive": 15761
+      },
+      "domains": {
+        "general_tweet": 11635,
+        "movie_review": 12000,
+        "political_tweet": 12013,
+        "subtitle": 11999
+      }
+    },
+    "val": {
+      "count": 5968,
+      "labels": {
+        "negative": 1992,
+        "neutral": 1994,
+        "positive": 1982
+      },
+      "domains": {
+        "general_tweet": 1471,
+        "movie_review": 1500,
+        "political_tweet": 1497,
+        "subtitle": 1500
+      }
+    },
+    "test": {
+      "count": 6734,
+      "labels": {
+        "negative": 2248,
+        "neutral": 2244,
+        "positive": 2242
+      },
+      "domains": {
+        "general_tweet": 1488,
+        "movie_review": 1500,
+        "political_tweet": 2246,
+        "subtitle": 1500
+      }
+    }
+  },
+  "mahasent_ablations": {
+    "10pct": 4764,
+    "25pct": 11911,
+    "50pct": 23823,
+    "100pct": 47647
+  },
+  "indicsentiment_mr_eval": {
+    "count": 1152,
+    "labels": {
+      "negative": 572,
+      "positive": 580
+    },
+    "domains": {
+      "appliances": 170,
+      "music": 50,
+      "apps": 98,
+      "air": 20,
+      "books": 102,
+      "equipment": 20,
+      "baby-accessories": 13,
+      "dogs": 135,
+      "movies": 120,
+      "surface": 42,
+      "living": 36,
+      "grocery": 19,
+      "photography": 89,
+      "furniture": 10,
+      "baby food": 6,
+      "construction": 10,
+      "personal care": 20,
+      "food": 40,
+      "amusement": 30,
+      "supplies": 10,
+      "beauty": 50,
+      "baby": 30,
+      "automotives": 10,
+      "cycling": 12,
+      "bags and luggage": 10
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dataset_name": "Maharashtra Regional Language & Dialect Sentiment Master Dataset",
+  "total_samples": 67800,
+  "by_tier": {
+    "tier_1_backbone": 67500,
+    "tier_2_regional_dialect": 300
+  },
+  "by_split": {
+    "train": 51846,
+    "val": 6868,
+    "test_standard_marathi": 6734,
+    "test_konkani": 900,
+    "eval_indicsentiment": 1152,
+    "test_dialect_regional": 300
+  },
+  "by_label": {
+    "negative": 23699,
+    "neutral": 20769,
+    "positive": 23332
+  },
+  "by_region": {
+    "across_maharashtra": 61501,
+    "konkan": 6059,
+    "khandesh": 60,
+    "vidarbha": 60,
+    "marathwada": 60,
+    "western_mh": 60
+  },
+  "by_dialect": {
+    "standard_marathi": 61501,
+    "konkani": 5999,
+    "ahirani": 40,
+    "bhili": 15,
+    "varhadi": 45,
+    "powari": 15,
+    "malvani": 60,
+    "marathwada_marathi": 60,
+    "deshi_kolhapuri_satari": 40,
+    "deshi_puneri": 20,
+    "ahirani_khandeshi": 5
+  },
+  "files_compiled": [
+    "mahasent_train.jsonl",
+    "mahasent_val.jsonl",
+    "mahasent_test.jsonl",
+    "konkani_train.jsonl",
+    "konkani_val.jsonl",
+    "konkani_test.jsonl",
+    "indicsentiment_mr_eval.jsonl",
+    "tier2_dialect_eval.jsonl"
+  ]
+}

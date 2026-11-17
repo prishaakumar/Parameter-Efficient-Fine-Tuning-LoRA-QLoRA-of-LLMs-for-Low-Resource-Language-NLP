@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and Hugging Face downloads
+.cache/
+*.cache
+*.lock
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch / Training Outputs & Checkpoints
+results/checkpoints/
+results/runs/
+qlora_output/
+*.pt
+*.bin
+*.safetensors
+*.pth
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables & secrets
+.env
+*.env
+*.key
+*.pem
+
